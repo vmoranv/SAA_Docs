@@ -60,7 +60,7 @@ export default defineConfig({
         // 页脚
         footer: {
           message: '基于 MIT 许可发布',
-          copyright: 'Copyright © 2024 SAA Team'
+          copyright: 'Copyright © 2025 SAA Team'
         }
       }
     },
@@ -117,7 +117,7 @@ export default defineConfig({
         // 页脚
         footer: {
           message: 'Released under the MIT License',
-          copyright: 'Copyright © 2024 SAA Team'
+          copyright: 'Copyright © 2025 SAA Team'
         }
       }
     }
