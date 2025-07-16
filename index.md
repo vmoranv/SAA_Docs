@@ -7,7 +7,7 @@ hero:
   text: "尘白禁区自动化助手"
   tagline: 日常/小游戏/钓鱼等自动化助手
   image:
-    src: /assets/logo.png
+    src: /logo.png
     alt: Logo
   actions:
     - theme: brand

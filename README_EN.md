@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Logo](./assets/logo.png)
+![Logo](./public/logo.png)
 
 **Official Documentation Site for Snowbreak Auto Assistant**
 

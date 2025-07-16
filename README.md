@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Logo](./assets/logo.png)
+![Logo](./public/logo.png)
 
 **尘白禁区自动化助手文档站点**
 

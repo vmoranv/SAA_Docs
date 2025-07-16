@@ -7,7 +7,7 @@ hero:
   text: "Snowbreak Automation Helper"
   tagline: Daily tasks/Mini-games/Fishing automation assistant
   image:
-    src: /assets/logo.png
+    src: /logo.png
     alt: Logo
   actions:
     - theme: brand
