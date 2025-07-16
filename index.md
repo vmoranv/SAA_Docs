@@ -3,23 +3,26 @@
 layout: home
 
 hero:
-  name: "SAA Docs"
-  text: "A Doc Site For SAA"
-  tagline: My great project tagline
+  name: "Snowbreak Auto Assistant"
+  text: "尘白禁区自动化助手"
+  tagline: 日常/小游戏/钓鱼等自动化助手
+  image:
+    src: /assets/logo.png
+    alt: Logo
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 开始使用
+      link: /getting-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Github仓库
+      link: https://github.com/LaoZhuJackson/SnowbreakAutoAssistant
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 🎯 日常活动
+    details: 📦 材料副本 / 🧩 角色碎片 / ⚔️ 拟境扫荡 / 🛒 商店购买
+  - title: 🎮 游戏辅助
+    details: 🎣 钓鱼 / 💝 猜心对局 / 🔍 信源解析 / 💧 心动水弹
+  - title: ⌨️ 按键工具
+    details: ⭐ 新星开拓自动采集 / ⚡ 妮塔E自动qte
 ---
 
