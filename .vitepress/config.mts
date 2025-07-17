@@ -8,51 +8,48 @@ export default defineConfig({
 
   // 配置多语言支持
   locales: {
-    zh: {
+    root: {
       label: '简体中文',
       lang: 'zh-CN',
       title: "SAA 文档",
       description: "尘白禁区自动化助手文档",
       themeConfig: {
         nav: [
-          { text: '首页', link: '/zh/' },
-          { text: '开始使用', link: '/zh/getting-started' },
+          { text: '首页', link: '/' },
+          { text: '开始使用', link: '/getting-started' },
           {
             text: '功能介绍',
             items: [
-              { text: '日常活动', link: '/zh/features/daily' },
-              { text: '游戏辅助', link: '/zh/features/games' },
-              { text: '按键工具', link: '/zh/features/hotkeys' }
+              { text: '日常活动', link: '/features/daily' },
+              { text: '游戏辅助', link: '/features/games' },
+              { text: '按键工具', link: '/features/hotkeys' }
             ]
           },
-          { text: '示例', link: '/zh/markdown-examples' }
+          { text: '示例', link: '/markdown-examples' }
         ],
-        // sidebar: set_sidebar("/zh"),
-        sidebar:[
+        // sidebar: set_sidebar("/"),
+        sidebar: [
           {
-            text: '开始使用',
-            link: '/zh/getting-started'
-          },
-          {
-            text: '功能介绍',
+            text: '开始',
             items: [
-              {
-                text: '日常活动',
-                link: '/zh/features/daily'
-              },
-              {
-                text: '游戏辅助',
-                link: '/zh/features/games'
-              },
-              {
-                text: '按键工具',
-                link: '/zh/features/hotkeys'
-              }
+              { text: '快速开始', link: '/getting-started' },
+              { text: '安装指南', link: '/installation' }
             ]
           },
           {
-            text: 'Markdown 示例',
-            link: '/zh/markdown-examples'
+            text: '功能',
+            items: [
+              { text: '日常活动', link: '/features/daily' },
+              { text: '游戏辅助', link: '/features/games' },
+              { text: '按键工具', link: '/features/hotkeys' }
+            ]
+          },
+          {
+            text: '示例',
+            items: [
+              { text: 'Markdown 示例', link: '/markdown-examples' },
+              { text: 'API 示例', link: '/api-examples' }
+            ]
           }
         ],
         // 自定义站点标题和图标
@@ -88,32 +85,29 @@ export default defineConfig({
           },
           { text: 'Examples', link: '/en/markdown-examples' }
         ],
-        // sidebar: set_sidebar('/en'),
-        sidebar:[
+        // sidebar: set_sidebar("/en"),
+        sidebar: [
           {
             text: 'Getting Started',
-            link: '/en/getting-started'
+            items: [
+              { text: 'Quick Start', link: '/en/getting-started' },
+              { text: 'Installation', link: '/en/installation' }
+            ]
           },
           {
             text: 'Features',
             items: [
-              {
-                text: 'Daily Activities',
-                link: '/en/features/daily'
-              },
-              {
-                text: 'Game Assistance',
-                link: '/en/features/games'
-              },
-              {
-                text: 'Hotkey Tools',
-                link: '/en/features/hotkeys'
-              }
+              { text: 'Daily Activities', link: '/en/features/daily' },
+              { text: 'Game Assistance', link: '/en/features/games' },
+              { text: 'Hotkey Tools', link: '/en/features/hotkeys' }
             ]
           },
           {
-            text: 'Markdown Examples',
-            link: '/en/markdown-examples'
+            text: 'Examples',
+            items: [
+              { text: 'Markdown Examples', link: '/en/markdown-examples' },
+              { text: 'API Examples', link: '/en/api-examples' }
+            ]
           }
         ],
         // 自定义站点标题和图标
