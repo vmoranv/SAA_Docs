@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { set_sidebar } from "./utils/auto-gen-sidebar.mjs";
+// import { set_sidebar } from "./utils/auto-gen-sidebar.mjs";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -27,7 +27,34 @@ export default defineConfig({
           },
           { text: '示例', link: '/zh/markdown-examples' }
         ],
-        sidebar: set_sidebar("/zh"),
+        // sidebar: set_sidebar("/zh"),
+        sidebar:[
+          {
+            text: '开始使用',
+            link: '/zh/getting-started'
+          },
+          {
+            text: '功能介绍',
+            items: [
+              {
+                text: '日常活动',
+                link: '/zh/features/daily'
+              },
+              {
+                text: '游戏辅助',
+                link: '/zh/features/games'
+              },
+              {
+                text: '按键工具',
+                link: '/zh/features/hotkeys'
+              }
+            ]
+          },
+          {
+            text: 'Markdown 示例',
+            link: '/zh/markdown-examples'
+          }
+        ],
         // 自定义站点标题和图标
         siteTitle: 'SAA 文档',
         logo: '/logo.png',
@@ -61,7 +88,34 @@ export default defineConfig({
           },
           { text: 'Examples', link: '/en/markdown-examples' }
         ],
-        sidebar: set_sidebar('/en'),
+        // sidebar: set_sidebar('/en'),
+        sidebar:[
+          {
+            text: 'Getting Started',
+            link: '/en/getting-started'
+          },
+          {
+            text: 'Features',
+            items: [
+              {
+                text: 'Daily Activities',
+                link: '/en/features/daily'
+              },
+              {
+                text: 'Game Assistance',
+                link: '/en/features/games'
+              },
+              {
+                text: 'Hotkey Tools',
+                link: '/en/features/hotkeys'
+              }
+            ]
+          },
+          {
+            text: 'Markdown Examples',
+            link: '/en/markdown-examples'
+          }
+        ],
         // 自定义站点标题和图标
         siteTitle: 'SAA Docs',
         logo: '/logo.png',
