@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 开始使用
-      link: /zh/getting-started
+      link: /getting-started
     - theme: alt
       text: Github仓库
       link: https://github.com/LaoZhuJackson/SnowbreakAutoAssistant

@@ -32,16 +32,15 @@ export default defineConfig({
           {
             text: '开始',
             items: [
-              { text: '快速开始', link: '/getting-started' },
-              { text: '安装指南', link: '/installation' }
+              { text: '快速开始', link: '/getting-started' }
             ]
           },
           {
             text: '功能',
             items: [
               { text: '日常活动', link: '/features/daily' },
-              { text: '游戏辅助', link: '/features/games' },
-              { text: '按键工具', link: '/features/hotkeys' }
+              { text: '游戏辅助', link: '/features/tools' },
+              { text: '按键工具', link: '/features/trigger' }
             ]
           },
           {
@@ -79,8 +78,8 @@ export default defineConfig({
             text: 'Features',
             items: [
               { text: 'Daily Activities', link: '/en/features/daily' },
-              { text: 'Game Assistance', link: '/en/features/games' },
-              { text: 'Hotkey Tools', link: '/en/features/hotkeys' }
+              { text: 'Game Assistance', link: '/en/features/tools' },
+              { text: 'Hotkey Tools', link: '/en/features/trigger' }
             ]
           },
           { text: 'Examples', link: '/en/markdown-examples' }
@@ -90,8 +89,7 @@ export default defineConfig({
           {
             text: 'Getting Started',
             items: [
-              { text: 'Quick Start', link: '/en/getting-started' },
-              { text: 'Installation', link: '/en/installation' }
+              { text: 'Quick Start', link: '/en/getting-started' }
             ]
           },
           {
