@@ -21,11 +21,17 @@ export default defineConfig({
             text: '功能介绍',
             items: [
               { text: '日常活动', link: '/features/daily' },
-              { text: '游戏辅助', link: '/features/games' },
-              { text: '按键工具', link: '/features/hotkeys' }
+              { text: '游戏辅助', link: '/features/tools' },
+              { text: '按键工具', link: '/features/trigger' }
             ]
           },
-          { text: '示例', link: '/markdown-examples' }
+          {
+            text: '开发者文档',
+            items: [
+              { text: '构建项目', link: '/developer/init' },
+              { text: '文档规范', link: '/developer/repo' }
+            ]
+          }
         ],
         // sidebar: set_sidebar("/"),
         sidebar: [
@@ -44,10 +50,10 @@ export default defineConfig({
             ]
           },
           {
-            text: '示例',
+            text: '开发者文档',
             items: [
-              { text: 'Markdown 示例', link: '/markdown-examples' },
-              { text: 'API 示例', link: '/api-examples' }
+              { text: '构建项目', link: '/developer/init' },
+              { text: '文档规范', link: '/developer/repo' }
             ]
           }
         ],
@@ -82,7 +88,13 @@ export default defineConfig({
               { text: 'Hotkey Tools', link: '/en/features/trigger' }
             ]
           },
-          { text: 'Examples', link: '/en/markdown-examples' }
+          {
+            text: 'Developer',
+            items: [
+              { text: 'Init', link: '/en/developer/init' },
+              { text: 'Dev Features', link: '/en/developer/repo' }
+            ]
+          }
         ],
         // sidebar: set_sidebar("/en"),
         sidebar: [
@@ -96,15 +108,15 @@ export default defineConfig({
             text: 'Features',
             items: [
               { text: 'Daily Activities', link: '/en/features/daily' },
-              { text: 'Game Assistance', link: '/en/features/games' },
-              { text: 'Hotkey Tools', link: '/en/features/hotkeys' }
+              { text: 'Game Assistance', link: '/en/features/tools' },
+              { text: 'Hotkey Tools', link: '/en/features/trigger' }
             ]
           },
           {
-            text: 'Examples',
+            text: 'Developer',
             items: [
-              { text: 'Markdown Examples', link: '/en/markdown-examples' },
-              { text: 'API Examples', link: '/en/api-examples' }
+              { text: 'Init', link: '/en/developer/init' },
+              { text: 'Dev Features', link: '/en/developer/repo' }
             ]
           }
         ],
