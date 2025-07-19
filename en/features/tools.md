@@ -39,7 +39,12 @@ Repeatedly farm the first level of combat training for specified times, doesn't 
 Used to complete the weekly task of 20 regular operations for certificates
 :::
 ## Source Analysis
-Base -> Caroline -> Source Analysis
+Base -> Caroline
+![Source Analysis](/pieces1.png)
+Press F to Start Source Analysis
+![Source Analysis Interface](/pieces2.png)
+Use SAA to finish it automatically
+![SAA Source Analysis](/pieces3.png)
 ::: warning
 This function only provides solutions, doesn't auto-assemble. You need to manually input the current quantity of each puzzle piece
 
